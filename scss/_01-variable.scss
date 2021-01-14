@@ -1,0 +1,33 @@
+$orange: #fc9726;
+$blue: #3f9cd1;
+$dark: #000;
+$light: #fff;
+$light-1: #fafafa;
+
+$darkgray: #929292;
+$error: #fc3838;
+$success: #23cc0d;
+
+$base-size: 62.5%;
+
+$font-regular: "lato_regular", sans-serif;
+$font-bold: "lato_bold", sans-serif;
+$font-light: "lato_light", sans-serif;
+$font-black: "lato_black", sans-serif;
+
+// MIXIN
+@mixin btn($color, $width) {
+  padding: 1rem 1.4rem;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: $width;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: $color;
+  color: #fff;
+}

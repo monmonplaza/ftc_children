@@ -1,0 +1,58 @@
+.header {
+  &__log {
+    background-color: $blue;
+    padding: 0.4rem 0;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      li {
+        margin: 0 1rem;
+        a {
+          color: $light;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  &__main {
+    height: 7rem;
+    padding: 1rem 0;
+    background-color: $light-1;
+    position: relative;
+    width: 100%;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      nav {
+        display: flex;
+        height: inherit;
+        align-items: center;
+
+        .cta {
+          padding: 1rem 1.4rem;
+          display: inline-block;
+          border-radius: 5px;
+          border: none;
+          font-size: 1.4rem;
+          cursor: pointer;
+          background-color: $blue;
+          color: $light;
+          margin-left: 2rem;
+        }
+      }
+      ul {
+        display: flex;
+        li {
+          margin-left: 2rem;
+          a {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+}
