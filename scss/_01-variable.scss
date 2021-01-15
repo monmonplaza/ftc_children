@@ -31,3 +31,9 @@ $font-black: "lato_black", sans-serif;
   background-color: $color;
   color: #fff;
 }
+
+@mixin breakpoint($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
